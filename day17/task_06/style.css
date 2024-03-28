@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+
+button {
+
+  height: 50px;
+  width: auto;
+  margin-top: 130px;
+  margin-left: 45%;
+  background: black;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 2px 2px 15px 5px red;
+  border: none;
+  font-size: 25px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+body {
+  background: #0acdcd;
+
+}
+
+
+
+h3 {
+  height: 400px;
+  width: 300px;
+  background: black;
+  color: white;
+  text-align: left;
+  overflow: auto;
+  padding: 23px;
+  margin: 0 auto;
+  margin-top: 51px;
+  border-radius: 10px;
+
+
+}
+
+.item {
+  padding: 5px;
+  margin-bottom: 28px;
+
+}
