@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Task8</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1 class="heading">Hello from Mumbai..</h1>
+  <div id="container">
+
+
+    <div id="app">
+      <h1>Current Time</h1>
+      <div id="current-time"></div>
+    </div>
+
+    <div class="create-alarm">
+      <div>Set Alarm</div>
+      <div class="form-actions">
+        <form>
+          <div class="alarm-inputs">
+            <input type="number" name="hour" placeholder="Enter hours" min="0" max="12" required />
+            <input type="number" name="min" min="0" max="60" placeholder="Enter minutes" required />
+            <input type="number" name="sec" min="0" max="60" placeholder="Enter seconds" required />
+            <select name="zone" required>
+              <option value="" selected disabled>Zone</option>
+              <option value="AM">AM</option>
+              <option value="PM">PM</option>
+            </select>
+          </div>
+          <button>Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="active-alarm">
+    <div id="alarm-text"></div>
+  </div>
+
+  <audio id="alarm-audio"></audio>
+
+  <div id="active-alarm">
+    <div id="alarm-text"></div>
+    <button id="clear-alarm">Clear Alarm</button>
+  </div>
+  </div>
+
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>

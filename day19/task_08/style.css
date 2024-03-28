@@ -1,0 +1,81 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.heading {
+  color: blue;
+  background-color: #f7e4e4;
+  padding: 9px;
+  text-shadow: 3px 4px 6px black;
+  border-radius: 22px;
+  letter-spacing: 2px;
+  margin-right: 450px;
+}
+
+body {
+  background: url(https://media.istockphoto.com/photos/red-vintage-alarm-clock-on-light-blue-color-background-picture-id1132203345?b=1&k=20&m=1132203345&s=170667a&w=0&h=jC0BCRjGn_ufT5u2AC4Bdgb8kS0z3z9zWgaf_HRxJh4=);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: monaco;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  background-image: linear-gradient(purple, blue);
+  padding: 20px;
+  margin-right: 450px;
+  border-radius: 20px;
+  box-shadow: 3px 4px 5px black;
+}
+
+button {
+  background-color: #d058d0;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+}
+
+#current-time {
+  font-size: 32px;
+}
+
+#current-time,
+.create-alarm,
+h1,
+#active-alarm {
+  text-align: center;
+}
+
+.create-alarm,
+.alarm-inputs,
+#active-alarm {
+  margin-top: 20px;
+}
+
+input {
+  width: 100px;
+  height: 30px;
+}
+
+.alarm-inputs,
+#alarm-text {
+  margin-bottom: 30px;
+}
+
+button {
+  font-size: 18px;
+}
+
+#active-alarm {
+  display: none;
+  margin-right: 450px;
+  font-weight: bolder;
+}
